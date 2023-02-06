@@ -17,7 +17,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 /*
       📡 This is where you configure your deploy configuration for 🏗 scaffold-eth
 
-      check out `packages/scripts/deploy.js` to customize your deployment
+      check out `scripts/deploy.js` to customize your deployment
 
       out of the box it will auto deploy anything in the `contracts` folder and named *.sol
       plus it will use *.args for constructor args
@@ -390,7 +390,7 @@ task(
     console.log(
       "🔐 Account Generated as " +
         address +
-        " and set as mnemonic in packages/hardhat"
+        " and set as mnemonic in current directory"
     );
     console.log(
       "💬 Use 'yarn run account' to get more information about the deployment account."
@@ -450,7 +450,7 @@ task(
     console.log(
       "⛏  Account Mined as " +
         address +
-        " and set as mnemonic in packages/hardhat"
+        " and set as mnemonic in current directory"
     );
     console.log(
       "📜 This will create the first contract: " +

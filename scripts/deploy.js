@@ -71,7 +71,7 @@ const main = async () => {
 
   console.log(
     " 💾  Artifacts (address, abi, and args) saved to: ",
-    chalk.blue("packages/hardhat/artifacts/"),
+    chalk.blue("artifacts/"),
     "\n\n"
   );
 };

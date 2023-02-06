@@ -39,11 +39,11 @@ cd scaffold-eth
 yarn deploy
 ```
 
-🔏 Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
+🔏 Edit your smart contract `YourContract.sol` in `contracts`
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
 
-💼 Edit your deployment scripts in `packages/hardhat/deploy`
+💼 Edit your deployment scripts in `deploy`
 
 📱 Open http://localhost:3000 to see the app
 
